@@ -18,18 +18,6 @@ scripts/**/.serverless
 
 /git-secrets.out
 
-# TLS stuff
-scripts
-!docker-packager/scripts/
-!Operations/scripts/
-
-IaC/sfc-dev/terraform.tfstate.backup
-IaC/sfc-dev/terraform.tfstate
-
-IaC/sfc-or-dev-qa/s3_yum/terraform.tfstate.backup
-IaC/sfc-or-dev-qa/s3_yum/terraform.tfstate
-.project
-
 docker-packager/build
 
 _pycache__
@@ -50,8 +38,4 @@ _pycache__
 bazel-*
 error-prone.patch
 hs_err_pid*.log
-Client/dependency-reduced-pom.xml
-Client/lib
-Client/target
-ExecPlatform/*.out
 
